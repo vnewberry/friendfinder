@@ -7,7 +7,7 @@ friend finder is a minimalistic matchmaking app that highlights the use of expre
 <hr>
 <h2>Dependencies</h2
 
-![Express](https://www.npmjs.com/package/express)
+[Express](https://www.npmjs.com/package/express)
 
 <hr>
 
