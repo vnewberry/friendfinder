@@ -46,13 +46,14 @@ res.json(bestFriend);
 friends.push(req.body);
 });
 
-app.post("/api/clear", function(req, res) {
-    // Empty out the arrays of data
-    friends.length = 1;
+//added a clear route just to clean up messy json data
+// app.post("/api/clear", function(req, res) {
+//     // Empty out the arrays of data
+//     friends.length = 1;
    
 
-    res.json({ ok: true });
-  });
+//     res.json({ ok: true });
+//   });
 };
 
 
