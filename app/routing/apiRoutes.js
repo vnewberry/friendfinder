@@ -45,6 +45,14 @@ res.json(bestFriend);
 //pushes new submission into the friendsList array
 friends.push(req.body);
 });
+
+app.post("/api/clear", function(req, res) {
+    // Empty out the arrays of data
+    friends.length = 1;
+   
+
+    res.json({ ok: true });
+  });
 };
 
 
